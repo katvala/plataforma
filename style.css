@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+    color: #F28705;
+}
+.logo{
+    max-width: 95px;
+}
+.btn-primary{
+    color:white;
+    background-color: #F28705;
+    border-color: #F28705;
+    margin:20px auto;
+    border-radius:10px;
+    padding: 10px 15px;
+    border:0;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.modulo{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 830px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .modulo{
+        margin-bottom: 30px;
+    }
+}
